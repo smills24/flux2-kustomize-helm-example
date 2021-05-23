@@ -19,9 +19,16 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
+    image:
+      tag: 5.2.1
     cache: redis-master.redis:6379
     ingress:
       enabled: true
       annotations:
         kubernetes.io/ingress.class: nginx
       path: "/"
+  valuesFrom:
+    - kind: Secret
+      name: ecr
+      valuesKey: repo
+      targetPath: image.repository

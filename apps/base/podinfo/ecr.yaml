@@ -1,0 +1,37 @@
+apiVersion: v1
+data:
+    repo: ENC[AES256_GCM,data:1I+0f0/98tXPEz82pVbB0C6FvvvxbhoiWcaIkk5IDsu1lO7kHWNr6usV4IUBSESxH0STRKAG7m9OXnCg,iv:h2yAqf7idSCdlxwd+1DRYA083KZqtng/y3KB7ZiekkI=,tag:WbaKpo0ooG2/aLZkwGZpzA==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: ecr
+    namespace: podinfo
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2021-05-23T16:37:35Z"
+    mac: ENC[AES256_GCM,data:4XXaVF1+pLUHW8i5IT2woisGGsb710Ul2H53FVw8JCrjY955KwyPyv8E/cd5jSVHlFBN8uU+/HqGUe98ydomJhHLRzfUaJWzW5B3fKfGULlD4KiDT6Wo9+NIkyA0mrkhih5Qkv9qjSTU88DuwOWXNvDF7N25Hh7KXeRVEwHI1e8=,iv:dELAy9WqUWEmxWw/qNMHPCMlH/iMiJukM51nYVnElAw=,tag:BvpHsO1ENEMR8/ozMINLhA==,type:str]
+    pgp:
+        - created_at: "2021-05-23T16:37:35Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQGMAz8v36uYCVg4AQwAoB+A2YLH7WhoCRV2tbRqJGQy4GHg0Sw92gw2A8NIBWlS
+            yzBM8MIm4WqXbtGlkWzM/oy1g9eD0SaMbWA3AmkPPtJXBVZtQEPR3ASgSpnu37Sw
+            AcldWrSOcjqn3FxLZeo8jl7mlQSPeI45maMLC6vrYRmHa54UwDXEXzGHybMjGFmi
+            ExCKPHIPs/lk9/et/HX6y3S2qNcrhldY1xW7PB0d9GNGe/QG3lPzwIg/AhJr3UwT
+            4GOJ4oBYP5B9lebMw6ihqMBdAjjdq/YrTeaokHYY9ypl9Nik6rkfDIfqYbIDz3Ze
+            imZ3fsCB6eKqrd+Wnqof86+rv+GDDa0NAuPxs3MvPleXlQTB6xvpDGP7FnDhp5+E
+            aCF57jEw7hfY2f9RaSidg7+qQsZC/qIHbaNh5B9jdnLvzyijgqDSHljv2qu1wzzF
+            LjJKu8ur/WmorIsTZe1rkmlCe0sYI+FR0mdW2MSpf3sRhGDP4Sj/rVDPDWQWG3pV
+            Wvtrwjc6GKLKLZQJcnTs1GgBCQIV/JpL0EQKKdMkPiqXQoUpUXRtoCgqihFVGbqb
+            xgkNwf2Kf1wio9YSRerUJ/fIhOPejBeQ8u1T7HsrZPnzNswplJv2Ppp06FZUxBHP
+            ot0h+T4l4qtwtQjL6LhbygACJtG9Ual6lw==
+            =sE8d
+            -----END PGP MESSAGE-----
+          fp: 6B2527008A513959E43F5E777654A9E5D1D24D78
+    encrypted_regex: ^(data|stringData)$
+    version: 3.7.1
