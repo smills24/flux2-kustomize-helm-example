@@ -19,8 +19,8 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
-    image:
-      tag: 5.2.0
+#    image:
+#      tag: 5.2.0
     cache: redis-master.redis:6379
     ingress:
       enabled: true
