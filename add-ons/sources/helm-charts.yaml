@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: metrics-server
+  name: helm-charts
   namespace: flux-system
 spec:
   interval: 1m
-  url: ./charts
+  url: ./
