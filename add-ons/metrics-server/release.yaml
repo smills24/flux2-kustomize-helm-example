@@ -9,7 +9,7 @@ spec:
       chart: metrics-server
       sourceRef:
         kind: GitRepository
-        name: helm-repo
+        name: metrics-server
         namespace: flux-system
       version: "5.8.9"
   interval: 1m0s
