@@ -5,4 +5,4 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: git@github.com:smills24/flux2-kustomize-helm-example.git
+  url: https://charts.bitnami.com/bitnami

@@ -6,10 +6,10 @@ spec:
   releaseName: metrics-server
   chart:
     spec:
-      chart: ./charts/metrics-server
+      chart: metrics-server
       sourceRef:
-        kind: GitRepository
-        name: helm-charts
+        kind: HelmRepository
+        name: bitnami
         namespace: flux-system
       version: "5.8.9"
   interval: 1m0s
