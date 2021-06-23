@@ -6,7 +6,7 @@ spec:
   releaseName: gatekeeper
   chart:
     spec:
-      chart: gatekeeper/gatekeeper
+      chart: gatekeeper
       sourceRef:
         kind: HelmRepository
         name: opa
