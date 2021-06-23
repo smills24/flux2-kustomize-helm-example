@@ -1,0 +1,2 @@
+auditInterval: 30
+constraintViolationsLimit: 25

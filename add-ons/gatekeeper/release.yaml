@@ -1,0 +1,20 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: gatekeeper
+spec:
+  releaseName: gatekeeper
+  chart:
+    spec:
+      chart: gatekeeper/gatekeeper
+      sourceRef:
+        kind: HelmRepository
+        name: opa
+        namespace: flux-system
+  interval: 1m0s
+  install:
+    remediation:
+      retries: 3
+  valuesFrom:
+    - kind: ConfigMap
+      name: gatekeeper-values
