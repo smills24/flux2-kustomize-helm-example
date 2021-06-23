@@ -8,3 +8,5 @@ configMapGenerator:
   - name: metrics-server-values
     files:
       - values.yaml=values.yaml
+configurations:
+  - kustomizeconfig.yaml
