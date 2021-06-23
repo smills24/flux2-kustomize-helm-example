@@ -2,4 +2,3 @@ rbac:
   create: true
 apiService:
   create: true
-podLabels: "test metric-server"
